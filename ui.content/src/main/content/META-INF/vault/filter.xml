@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aemshowcase" mode="merge"/>
+    <filter root="/content/aemshowcase" mode="merge"/>
+    <filter root="/content/dam/aemshowcase" mode="merge">
+        <exclude pattern="/content/dam/aemshowcase(/.*)?"/>
+        <include pattern="/content/dam/aemshowcase/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aemshowcase/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aemshowcase" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/aemshowcase" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/aemshowcase" mode="merge"/>
+    <filter root="/content/dam/aemshowcase/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/aemshowcase/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/aemshowcase/wknd_logo.png" mode="merge"/>
+    <filter root="/content/dam/aemshowcase/af_model_sample.json" mode="merge"/>
+</workspaceFilter>
