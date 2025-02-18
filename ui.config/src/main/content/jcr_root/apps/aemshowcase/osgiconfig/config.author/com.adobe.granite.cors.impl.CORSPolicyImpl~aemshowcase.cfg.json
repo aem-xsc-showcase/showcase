@@ -1,6 +1,7 @@
 {
+  "supportscredentials":true,
   "alloworigin": ["http://localhost:3000"],
-  "allowedpaths": ["/(content|conf)/aemshowcase.*"],
+  "allowedpaths": [".*"],
   "supportedheaders": [
     "Authorization",
     "Origin",
@@ -10,6 +11,14 @@
     "Access-Control-Request-Method",
     "Access-Control-Request-Headers"
   ],
-  "supportedmethods": ["GET","HEAD"],
+  "supportedmethods": [
+      "GET",
+      "HEAD",
+      "POST",
+      "PUT",
+      "DELETE",
+      "PATCH",
+      "OPTIONS"
+  ],
   "alloworiginregexp": []
 }
