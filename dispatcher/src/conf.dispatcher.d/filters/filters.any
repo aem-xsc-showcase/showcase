@@ -11,3 +11,6 @@ $include "./default_filters.any"
 
 # Allow manifest.webmanifest files located in the content
 /0102 { /type "allow" /extension "webmanifest" /path "/content/*/manifest" }
+
+# Allow Content Fragments OpenAPI requests, required for integration with AJO
+/200 { /type "allow" /url "/adobe/sites/cf/*" }
