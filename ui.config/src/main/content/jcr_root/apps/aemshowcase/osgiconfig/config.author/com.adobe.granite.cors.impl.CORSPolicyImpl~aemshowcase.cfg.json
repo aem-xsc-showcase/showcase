@@ -1,6 +1,9 @@
 {
   "supportscredentials":true,
-  "alloworigin": ["http://localhost:3000"],
+  "alloworigin": [
+    "http://localhost:3000",
+    "https://.*\\.adobeio-static\\.net"
+  ],
   "allowedpaths": [".*"],
   "supportedheaders": [
     "Authorization",
