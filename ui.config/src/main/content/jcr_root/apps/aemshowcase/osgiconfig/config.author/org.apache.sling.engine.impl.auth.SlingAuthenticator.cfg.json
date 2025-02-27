@@ -10,7 +10,8 @@
     "-/libs/dam/remoteassets/content/loginerror",
     "-/aem/update.theme",
     "-/linkexpired",
-    "-/content/dam/frescopa"
+    "-/content/dam/frescopa",
+    "-/content/dam/Library"
   ],
   "sling.auth.anonymous.user": "",
   "auth.uri.suffix": [
