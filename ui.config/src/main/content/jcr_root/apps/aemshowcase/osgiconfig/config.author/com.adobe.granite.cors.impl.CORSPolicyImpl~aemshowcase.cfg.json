@@ -2,7 +2,8 @@
   "supportscredentials":true,
   "alloworigin": [
     "http://localhost:3000",
-    "https://.*\\.adobeio-static\\.net"
+    "https://.*\\.adobeio-static\\.net",
+    "https://3374739-cfpreview.adobeio-static.net"
   ],
   "allowedpaths": [".*"],
   "supportedheaders": [
