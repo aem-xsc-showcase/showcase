@@ -11,7 +11,8 @@
     "-/aem/update.theme",
     "-/linkexpired",
     "-/content/dam/frescopa",
-    "-/content/dam/Library"
+    "-/content/dam/Library",
+    "-/content/dam/securbank"
   ],
   "sling.auth.anonymous.user": "",
   "auth.uri.suffix": [
