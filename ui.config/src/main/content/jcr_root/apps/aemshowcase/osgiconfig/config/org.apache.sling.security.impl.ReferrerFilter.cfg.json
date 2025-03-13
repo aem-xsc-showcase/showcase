@@ -1,0 +1,17 @@
+{
+    "allow.empty": false,
+    "allow.hosts": [],
+    "allow.hosts.regexp": [
+        ".*"
+    ],
+    "filter.methods": [
+      "POST",
+      "PUT",
+      "DELETE",
+      "COPY",
+      "MOVE"
+    ],
+    "exclude.agents.regexp": [
+      ""
+    ]
+}
