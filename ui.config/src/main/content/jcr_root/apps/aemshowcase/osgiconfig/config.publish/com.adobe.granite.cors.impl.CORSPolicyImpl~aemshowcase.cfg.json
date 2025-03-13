@@ -16,9 +16,7 @@
     "https://main--frescopa--aem-showcase.aem.page",
     "https://main--frescopa-stage--aem-showcase.aem.live",
     "https://main--frescopa-stage--aem-showcase.aem.page",
-    "https://frescopa.coffee",
-    "https://securbankdemo.com",
-    "https://www.securbankdemo.com"
+    "https://frescopa.coffee"
   ],
   "allowedpaths": [
     ".*"
@@ -34,6 +32,6 @@
     "Access-Control-Request-Headers",
     "Access-Control-Allow-Origin"
   ],
-  "supportedmethods": ["GET","HEAD"],
+  "supportedmethods": ["GET","HEAD","POST"],
   "alloworiginregexp": []
 }
