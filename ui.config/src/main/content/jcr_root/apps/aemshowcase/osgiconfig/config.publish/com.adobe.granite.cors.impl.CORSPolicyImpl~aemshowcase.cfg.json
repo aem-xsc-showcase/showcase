@@ -16,6 +16,8 @@
     "https://main--frescopa--aem-showcase.aem.page",
     "https://main--frescopa-stage--aem-showcase.aem.live",
     "https://main--frescopa-stage--aem-showcase.aem.page",
+    "https://main--frescopa-dba--aem-showcase.aem.live",
+    "https://main--frescopa-dba--aem-showcase.aem.page",
     "https://frescopa.coffee"
   ],
   "allowedpaths": [
